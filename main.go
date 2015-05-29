@@ -18,7 +18,7 @@ import (
 )
 
 const (
-	N            = 1000
+	N            = 10000
 	DROP_TABLE   = `DROP TABLE IF EXISTS Benchmark`
 	CREATE_TABLE = `CREATE TABLE Benchmark(
 			id SERIAL NOT NULL,
